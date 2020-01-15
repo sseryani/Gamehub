@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <item
+        android:id="@+id/mainView"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_home"
+        android:title="Main">
+    </item>
+
+    <item
+        android:id="@+id/leaderboards"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_leaderboards"
+        android:title="Leaderboard">
+    </item>
+
+    <item
+        android:id="@+id/profileMenu"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_settings"
+        android:title="Profile">
+    </item>
+
+</menu>

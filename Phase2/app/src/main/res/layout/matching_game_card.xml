@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".games.matchingGame.view.MatchingGameActivity">
+
+
+    <fall2018.csc2017.GameCentre.games.matchingGame.view.CardView
+        android:id="@+id/cardButton"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        xmlns:tools="http://schemas.android.com/tools"
+        tools:context=".games.matchingGame.view.CardView"
+        android:clickable="true"
+        >
+
+</fall2018.csc2017.GameCentre.games.matchingGame.view.CardView>
+
+</LinearLayout>

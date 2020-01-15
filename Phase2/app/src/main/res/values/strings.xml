@@ -1,0 +1,64 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">Game Centre</string>
+    <string name="user_prompt">Username / E-mail:</string>
+    <string name="pass_prompt">Password:</string>
+    <string name="login_button">Login</string>
+    <string name="emailPrompt">E-mail:</string>
+    <string name="contentDescription">Android logo on jetpack</string>
+    <string name="loginPrompt">Login</string>
+    <string name="not_registered">Not Registered?</string>
+    <string name="play_as_guest">Play As Guest</string>
+    <string name="welcomePrompt">Welcome Back To Sliding Tiles!</string>
+    <string name="new_game">New Game</string>
+    <string name="empty_profile_pic">empty profile pic</string>
+    <string name="loadSavedGame">Load Saved Game</string>
+    <string name="save_game" tools:ignore="ExtraTranslation">Save Game</string>
+    <string name="view_scores" tools:ignore="ExtraTranslation">View Scores</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="instructions_signup">Please Enter Your Personal Information</string>
+    <string name="choose_a_password">Choose a Password</string>
+    <string name="choosepass">Choose a Password:</string>
+    <string name="confirm">Confirm Your Password:</string>
+    <string name="diff_selection">Please Choose A Difficulty</string>
+    <string name="easy">Easy (3x3, 5 undos)</string>
+    <string name="medium">Medium (4x4, 3 Undos)</string>
+    <string name="hard">Hard (5x5, 1 Undo)</string>
+    <string name="logout">logout</string>
+    <string name="undo">undos: %1$d</string>
+    <string name="move_counter">Moves: %1$d</string>
+    <string name="attemptsStr">Chances: 5</string>
+    <string name="attemptsRemaining">ATTEMPTS LEFT:</string>
+    <string name="constant_time">Time - 0:0:0</string>
+    <string name="title_activity_start">StartActivity</string>
+    <string name="scoring">Scoring Menu</string>
+    <string name="myScore">Personal Points: %1$s</string>
+    <string name="topTitle">Top 10 Scores</string>
+    <string name="first">1st: %1$s %2$d Points</string>
+    <string name="second">2nd: %1$s %2$d Points</string>
+    <string name="third">3rd: %1$s %2$d Points</string>
+    <string name="forth">4th: %1$s, %2$d Points</string>
+    <string name="fifth">5th: %1$s, %2$d Points</string>
+    <string name="sixth">6th: %1$s, %2$d Points</string>
+    <string name="seventh">7th: %1$s, %2$d Points</string>
+    <string name="eighth">8th: %1$s, %2$d Points</string>
+    <string name="ninth">9th: %1$s, %2$d Points</string>
+    <string name="tenth">10th: %1$s, %2$d Points</string>
+    <string name="TTT">Tic Tac Toe</string>
+    <string name="ST">Sliding Tiles</string>
+    <string name="MG">Matching Game</string>
+    <string name="time">Time - %1% </string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="forgot_password">Forgot Password?</string>
+    <string name="tictactoeIcon"><![CDATA[https://firebasestorage.googleapis.com/v0/b/gamecenter-4564c.appspot.com/o/download.png?alt=media&token=f518645a-8bfd-4b62-9f77-450f3a130f40]]></string>
+    <string name="slidingTilesIcon"><![CDATA[https://firebasestorage.googleapis.com/v0/b/gamecenter-4564c.appspot.com/o/sliding_tiles_logo-alt.png?alt=media&token=af92d7ce-7766-4bcc-a300-3b3a2c32fdcb]]></string>
+    <string name="matchingGameIcon"><![CDATA[https://firebasestorage.googleapis.com/v0/b/gamecenter-4564c.appspot.com/o/matching_game_icon.png?alt=media&token=53603cd2-80d2-42f4-ab40-8ab5bd8a47d8]]></string>
+    <string-array name="options">
+        <item>Change Password</item>
+        <item>Deactivate Account</item>
+        <item>Logout</item>
+    </string-array>
+
+</resources>

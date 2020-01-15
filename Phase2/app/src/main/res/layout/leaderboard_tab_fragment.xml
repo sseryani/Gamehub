@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".ui.menu.view.leaderboard.TTTTab">
+
+
+    <TextView
+        android:id="@+id/myScore"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/myScore"
+        android:textColor="@color/blue_grey_100"
+        android:textSize="25sp"/>
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="20dp">
+
+    </View>
+    <include layout="@layout/leaderboard_fragment_content" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="top|end"
+        android:layout_margin="@dimen/fab_margin"
+        android:src="@android:drawable/ic_input_get"
+        app:layout_anchor="@+id/view"
+        app:layout_anchorGravity="right|top" />
+
+
+</android.support.design.widget.CoordinatorLayout>
